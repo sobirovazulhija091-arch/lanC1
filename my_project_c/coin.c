@@ -13,9 +13,9 @@ int main(void){
     } 
     while (dirams < 0);
         
-     int coin[]={830,800,600,500, 300, 100, 50, 20, 10};
+     int coin[]={500, 300, 100, 50, 20, 10};
      int total=0;
-     for(int i=0;i<9;i++){
+     for(int i=0;i<6;i++){
         total+=dirams / coin[i];
          dirams %= coin[i];
      }
