@@ -9,8 +9,7 @@ int main (void){
          printf("#"); 
         }
        }
-       printf(" ");
-       for(int g=0;g<=i;g++){
+       for(int g=0;g<=i-1;g++){
          printf("#"); 
        }
         printf("\n");
